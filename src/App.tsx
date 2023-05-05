@@ -120,7 +120,7 @@ const barData = {
 
 const App2: React.FC = (props) => {
   return (
-    <div className="chartDiv">
+    <>
       <ReactEChartsCore
         option={lineData}
         echarts={echarts}
@@ -129,7 +129,6 @@ const App2: React.FC = (props) => {
         theme={"theme_name"}
         //   onChartReady={this.onChartReadyCallback}
       />
-
       <ReactEChartsCore
         option={barData}
         echarts={echarts}
@@ -138,7 +137,7 @@ const App2: React.FC = (props) => {
         theme={"theme_name"}
         //   onChartReady={this.onChartReadyCallback}
       />
-    </div>
+    </>
   );
 };
 

@@ -1,4 +1,4 @@
-const dataHub=
+const dataHub:any[]=
 [
   {
     "Alcohol": 1,
